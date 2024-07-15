@@ -1,5 +1,4 @@
 import { PrismaClient } from "@prisma/client";
-import { create } from "domain";
 import fastify from "fastify";
 import { z } from "zod";
 
@@ -40,3 +39,5 @@ app
   .then(() => {
     console.log("HTTP Server Running");
   });
+
+  module.exports = app;
