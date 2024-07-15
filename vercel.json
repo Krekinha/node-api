@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "buildCommand": "next build",
+    "buildCommand": "tsup index.ts",
     "builds": [
       {
         "src": "index.ts",

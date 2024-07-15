@@ -6,7 +6,7 @@
   "engines": {"node": "18"},
   "scripts": {
     "dev": "tsx index.ts",
-    "build": "oiuto8tsup index.ts",
+    "build": "tsup index.ts",
     "start": "node index.js",
     "postinstall": "prisma generate"
   },
