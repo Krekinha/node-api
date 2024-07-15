@@ -1,10 +1,10 @@
 {
     "version": 2,
+    "buildCommand": "npx prisma generate && next build",
     "builds": [
       {
         "src": "index.ts",
-        "use": "@vercel/node",
-        "buildCommand": "npx prisma generate && next build"
+        "use": "@vercel/node"
       }
       
     ],
