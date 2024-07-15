@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "tsup server.ts",
+    "build": "tsupooo server.ts",
     "start": "node dist/server.js",
     "postinstall": "prisma generate"
   },
