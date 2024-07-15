@@ -5,9 +5,10 @@
   "main": "index.js",
   "engines": {"node": "18"},
   "scripts": {
-    "dev": "tsx src/server.ts",
-    "build": "tsup src",
-    "start": "node dist/server.js "
+    "dev": "tsx index.ts",
+    "build": "oiuto8tsup index.ts",
+    "start": "node index.js",
+    "postinstall": "prisma generate"
   },
   "keywords": [],
   "author": "",
