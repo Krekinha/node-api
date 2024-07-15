@@ -1,4 +1,4 @@
 {
   "version": 2,
-  "buildCommand": "nextoi build"
+  "buildCommand": "tsup server.ts"
 }
