@@ -33,13 +33,13 @@ const app = fastify();
 
 
 
-app.get("/users", async () => {
+app.get("/users", () => {
     return "olá mundo";
   });
 
 app
   .listen({
-    host: "0.0.0.0",
+    //host: "0.0.0.0",
     port: process.env.PORT ? Number(process.env.PORT) : 3333,
   })
   .then(() => {
