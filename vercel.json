@@ -4,6 +4,9 @@
       {
         "src": "index.ts",
         "use": "@vercel/node"
+      },
+      {
+        "buildCommand": "npx prisma generate && next build"
       }
     ],
     "routes": [
@@ -11,6 +14,5 @@
         "src": "/(.*)",
         "dest": "/"
       }
-    ],
-    "buildCommand": "npx prisma generate"
+    ]
   }
