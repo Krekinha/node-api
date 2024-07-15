@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "buildCommand": "tsup545 index.ts",
     "builds": [
       {
         "src": "index.ts",
