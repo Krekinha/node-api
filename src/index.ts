@@ -7,7 +7,7 @@ const app = fastify();
 const prisma = new PrismaClient();
 
 app.get("/", async () => {
-  return { "mensagem": "DEU BOM!!! :)" };
+  return { "mensagem": "DEU BOM DEMAIS!!! :)" };
 });
 
 app.get("/users", async () => {
