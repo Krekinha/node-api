@@ -1,5 +1,5 @@
 {
   "version": 2,
   "buildCommand": "tsup server.ts",
-  "outputDirectory": "./dist"
+  "outputDirectory": "."
 }
