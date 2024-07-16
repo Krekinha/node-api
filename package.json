@@ -2,15 +2,15 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "tsx index.ts",
-    "build": "tsup",
-    "start": "node dist/index.js",
+    "build": "tsc index",
+    "start": "node index.js",
     "postinstall": "prisma generate"
   },
   "tsup": {
-    "entry": ["src/index.ts"],
+    "entry": ["index.ts"],
     "splitting": false,
     "sourcemap": false,
     "clean": true
