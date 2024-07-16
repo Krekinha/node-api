@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "framework": "Other",
+  "framework": null,
   "buildCommand": "next build"
   
 }
