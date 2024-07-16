@@ -2,10 +2,10 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "dist/server.js",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "tsupooo server.ts",
+    "build": "tsup server.ts",
     "start": "node dist/server.js",
     "postinstall": "prisma generate"
   },
