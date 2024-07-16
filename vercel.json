@@ -1,6 +1,17 @@
 {
   "version": 2,
-  "framework": null,
-  "buildCommand": "next build"
-  
+  "builds": [
+    {
+      "src": "index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+    
 }
+
